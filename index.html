@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="1.css"> <!-- Thay đổi đường dẫn đến file CSS -->
+    <title>Giới thiệu bản thân</title>
+
+</head>
+<style>
+    #about {
+    background-color: #ffffff; /* Màu nền trắng */
+    padding: 50px 20px; /* Khoảng cách bên trong */
+    margin: 20px 0; /* Khoảng cách bên ngoài */
+    border-radius: 10px; /* Bo góc cho phần */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Bóng đổ nhẹ */
+    text-align: center; /* Canh giữa văn bản */
+}
+
+.about-content {
+    max-width: 800px; /* Chiều rộng tối đa */
+    margin: 0 auto; /* Canh giữa */
+}
+
+.about-content img {
+    border-radius: 50%; /* Hình tròn */
+    width: 150px; /* Kích thước lớn hơn */
+    height: 150px; /* Kích thước lớn hơn */
+    margin-bottom: 20px;
+    border: 3px solid #3498db; /* Viền cho hình ảnh */
+}
+
+h2 {
+    font-size: 2.5em; /* Kích thước tiêu đề lớn hơn */
+    color: #2c3e50; /* Màu tiêu đề */
+    margin-bottom: 20px; /* Khoảng cách dưới tiêu đề */
+}
+
+h3 {
+    color: #2980b9; /* Màu tiêu đề phụ */
+    margin-top: 20px; /* Khoảng cách trên tiêu đề phụ */
+    margin-bottom: 10px; /* Khoảng cách dưới tiêu đề phụ */
+    font-weight: bold; /* Chữ đậm */
+}
+
+p {
+    line-height: 1.6; /* Khoảng cách giữa các dòng */
+    margin-bottom: 15px; /* Khoảng cách dưới mỗi đoạn văn */
+    color: #555; /* Màu chữ cho đoạn văn */
+}
+
+ul {
+    margin: 10px 0; /* Khoảng cách trên và dưới danh sách */
+    padding-left: 20px; /* Khoảng cách bên trái cho danh sách */
+    text-align: left; /* Canh trái danh sách */
+}
+
+ul li {
+    margin-bottom: 5px; /* Khoảng cách giữa các mục trong danh sách */
+    position: relative; /* Để tạo hiệu ứng */
+    padding-left: 20px; /* Khoảng cách bên trái cho từng mục */
+}
+
+ul li:before {
+    content: '✔'; /* Biểu tượng cho từng mục */
+    position: absolute;
+    left: 0; /* Canh trái */
+    color: #3498db; /* Màu cho biểu tượng */
+}
+</style>
+<body>
+
+<header>
+    <h1>Trần Quốc Bảo</h1>
+    <nav>
+        <a href="#about">ABOUT</a>
+        <a href="#projects">PROJECTS</a>
+        <a href="#contact">CONTACT</a>
+    </nav>
+</header>
+
+<section id="about">
+    <h2>GIỚI THIỆU</h2>
+    <div class="about-content">
+        <img src="img/anhchandung.jpg" alt="Hình ảnh của Trần Quốc Bảo">
+        <p>Xin chào, tôi là Bảo. Tôi là một nhà thiết kế đa phương tiện và nghệ sĩ sống tại Thành phố Hồ Chí Minh, Việt Nam. Tôi đam mê kết hợp giữa sáng tạo và công nghệ để tạo ra những trải nghiệm hình ảnh hấp dẫn.</p>
+        
+        <div class="about-grid">
+            <div class="about-card">
+                <h3>Bằng cấp</h3>
+                <p>Tôi đã tốt nghiệp cử nhân Công nghệ Thông tin tại trường Đại học Bách Khoa TP.HCM.</p>
+            </div>
+            <div class="about-card">
+                <h3>Các môn học đã học</h3>
+                <ul>
+                    <li>Phát triển phần mềm</li>
+                    <li>Thiết kế giao diện người dùng (UI/UX)</li>
+                    <li>Hệ thống thông tin</li>
+                    <li>Quản lý dự án phần mềm</li>
+                    <li>Trí tuệ nhân tạo</li>
+                    <li>Ngôn ngữ lập trình Python, Java, và C#</li>
+                    <li>Phát triển web với HTML, CSS, JavaScript</li>
+                </ul>
+            </div>
+            <div class="about-card">
+                <h3>Kinh nghiệm</h3>
+                <p>Tôi đã có hơn 3 năm kinh nghiệm làm việc trong lĩnh vực thiết kế và phát triển phần mềm, bao gồm việc làm việc với các dự án thực tế và hợp tác với nhiều nhóm khác nhau.</p>
+            </div>
+            <div class="about-card">
+                <h3>Đam mê</h3>
+                <p>Tôi rất đam mê việc khám phá các công nghệ mới và luôn tìm kiếm cơ hội để học hỏi và phát triển kỹ năng của mình.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>PROJECTS</h2>
+    <div class="projects">
+        <div class="project-card">
+            <div class="image-container">
+                <img src="img/google.png" alt="Dự án 1">
+            </div>
+            <h3>Dự án 1</h3>
+        </div>
+        <div class="project-card">
+            <div class="image-container">
+                <img src="img/google.png" alt="Dự án 2">
+            </div>
+            <h3>Dự án 2</h3>
+        </div>
+        <div class="project-card">
+            <div class="image-container">
+                <img src="img/google.png" alt="Dự án 3">
+            </div>
+            <h3>Dự án 3</h3>
+        </div>
+        <div class="project-card">
+            <div class="image-container">
+                <img src="img/google.png" alt="Dự án 4">
+            </div>
+            <h3>Dự án 4</h3>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>CONTACT</h2>
+    <form class="contact-form">
+        <input type="text" placeholder="Tên *" required>
+        <input type="email" placeholder="Email *" required>
+        <input type="tel" placeholder="Điện thoại" required>
+        <textarea placeholder="Tin nhắn *" rows="4" required></textarea>
+        <p>Facebook: <a href="https://www.facebook.com/tran.bao.214132" target="_blank">Click vào để liên hệ</a></p>
+        <button type="submit">Gửi</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2023 Trần Quốc Bảo. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
